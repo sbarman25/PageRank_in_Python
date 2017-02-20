@@ -104,6 +104,7 @@ ranks = computePageRank(graph, 0.7)
 print ranks
 
 # Actual
+USERS_FILE = "<location of yelp users file>"
 graph = createGraph(USERS_FILE)
 print len(graph.vertices())
 print graph.getNoOfEdges()
